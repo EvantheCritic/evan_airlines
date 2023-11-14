@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\evan_airlines.props" />
+</Project>

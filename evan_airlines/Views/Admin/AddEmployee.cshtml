@@ -1,0 +1,23 @@
+﻿@model EmployeeModel
+
+<h1>Add a new employee</h1>
+
+<form style="max-width: 300px;" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control" id="inputName" name="inputName" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="inputJob">Job</label>
+        <input type="text" class="form-control" id="inputJob" name="inputJob" required>
+    </div>
+    <br>
+    <div class="input-group mb-3">
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputImage" name="inputImage">
+            <label class="custom-file-label" for="inputImage">Upload Image</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

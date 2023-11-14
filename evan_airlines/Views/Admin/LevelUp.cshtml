@@ -1,0 +1,17 @@
+﻿@model EmployeeModel
+
+<h1>Enter experience and Job Level</h1>
+
+<form style="max-width: 300px;" method="post">
+    <div class="form-group">
+        <label for="inputExperience">Experience</label>
+        <input type="number" step="1" class="form-control" id="inputExperience" name="inputExperience" value="@Model.experience">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="inputJobLevel">Job Level</label>
+        <input type="number" step="1" class="form-control" id="inputJobLevel" name="inputJobLevel" value="@Model.job_level">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

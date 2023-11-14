@@ -1,0 +1,32 @@
+﻿@model EmployeeModel
+
+<div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+        <div class="col-md-6"><img src="data:image/jpeg;base64, @Convert.ToBase64String(@Model.image_data)" alt="Image" /></div>
+        <div class="col-md-6">
+            <div class="small mb-1">Employee ID: @Model.id</div>
+            <h1 class="display-5 fw-bolder">@Model.name</h1>
+            <table class="table">
+                <tbody style="font-size: 22px;">
+                    <tr>
+                        <td>Job: @Model.job</td>
+                    </tr>
+                    <tr>
+                        <td>Experience: @Model.experience</td>
+                    </tr>
+                    <tr>
+                        <td>Job Level: @Model.job_level</td>
+                    </tr>
+                    <tr>
+                        <td>Hours: @Model.hours</td>
+                    </tr>
+                    <tr>
+                        <td>Money Earned: @Model.pay</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="dropdown-item" asp-area="" asp-controller="Logbook" asp-action="Flown" asp-route-name="@Model.name">Show flights flown</a>
+        </div>
+    </div>
+</div>
+

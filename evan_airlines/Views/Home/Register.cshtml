@@ -1,0 +1,42 @@
+﻿@model UserModel
+
+<form style="margin: auto; max-width: 400px; border: 1px solid #333333; border-radius: 14px; padding: 24px;" method="post">
+    <h1 class="text-center">Register</h1>
+
+    <!-- Name input -->
+    <div class="form-outline mb-2">
+        <input type="text" id="UserName" class="form-control" name="UserName" required />
+        <label class="form-label" for="UserName" style="font-size: 24px;">Name</label>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-2">
+        <input type="email" id="Email" class="form-control" name="Email" required />
+        <label class="form-label" for="Email" style="font-size: 24px;">Email address</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-2">
+        <input type="password" id="password" class="form-control" name="password" required />
+        <label class="form-label" for="password" style="font-size: 24px;">Password</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-2">
+        <input type="password" id="confirm_password" class="form-control" name="confirm_password" required />
+        <label class="form-label" for="confirm_password" style="font-size: 24px;">Confirm Password</label>
+    </div>
+
+    <div class="col mb-3">
+        <!-- Simple link -->
+        <a href="#!">Forgot password?</a>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+
+    <!-- Register button -->
+    <div class="text-center">
+        <p>Already a member? <a asp-action="" asp-controller="Home" asp-action="Login">Login</a></p>
+    </div>
+</form>

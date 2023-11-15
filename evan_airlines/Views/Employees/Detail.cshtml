@@ -2,7 +2,7 @@
 
 <div class="container px-4 px-lg-5 my-5">
     <div class="row gx-4 gx-lg-5 align-items-center">
-        <div class="col-md-6"><img src="data:image/jpeg;base64, @Convert.ToBase64String(@Model.image_data)" alt="Image" /></div>
+        <div class="col-md-6"><img src="data:image/jpeg;base64, @Convert.ToBase64String(@Model.image_data)" alt="Image" height="600"/></div>
         <div class="col-md-6">
             <div class="small mb-1">Employee ID: @Model.id</div>
             <h1 class="display-5 fw-bolder">@Model.name</h1>
@@ -12,10 +12,10 @@
                         <td>Job: @Model.job</td>
                     </tr>
                     <tr>
-                        <td>Experience: @Model.experience</td>
+                        <td>Performance: @Model.experience/50</td>
                     </tr>
                     <tr>
-                        <td>Job Level: @Model.job_level</td>
+                        <td>Years of Experience: @Model.job_level</td>
                     </tr>
                     <tr>
                         <td>Hours: @Model.hours</td>

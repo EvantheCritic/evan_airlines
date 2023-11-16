@@ -62,19 +62,22 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapControllerRoute(
     name: "Employees",
-    pattern: "{controller=Employees}/{action=Index}/{id?}");
+    pattern: "Employees/{action=Index}/{id?}",
+    defaults: new { controller = "Employees" });
 
 app.MapControllerRoute(
     name: "Logbook",
-    pattern: "{controller=Logbook}/{action=Index}/{id?}");
+    pattern: "Logbook/{action=Index}/{id?}",
+    defaults: new { controller = "Logbook" });
 
 app.MapControllerRoute(
     name: "Admin",
-    pattern: "{controller=Admin}/{action=addEmployee}/{id?}");
+    pattern: "Admin/{action=addEmployee}/{id?}",
+    defaults: new { controller = "Admin" });
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

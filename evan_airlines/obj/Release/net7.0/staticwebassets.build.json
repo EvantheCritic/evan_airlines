@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJWUvsoh8lR4Ifu6sQNZAtS1I/lhBmSrgfv227uvpzk=",
+  "Hash": "7Vc8BPoSdnCOmlhhhPeRx1pYMRwWv/GHL+lqZgomgrk=",
   "Source": "evan_airlines",
   "BasePath": "_content/evan_airlines",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\evan_airlines.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\AppDbContext.cs",
+      "SourceId": "evan_airlines",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\",
+      "BasePath": "_content/evan_airlines",
+      "RelativePath": "AppDbContext.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AppDbContext.cs"
     },
     {
       "Identity": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\css\\site.css",

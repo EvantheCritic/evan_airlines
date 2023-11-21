@@ -8,17 +8,17 @@
         </div>
     }
     <div class="form-outline mb-2">
+        <label class="form-label" for="email" style="font-size: 16px;">Email address</label>
         <input type="text" id="email" class="form-control" name="email" />
-        <label class="form-label" for="email" style="font-size: 24px;">Email address</label>
     </div>
 
     <div class="form-outline mb-2">
+        <label class="form-label" for="password" style="font-size: 16px;">Password</label>
         <input type="password" id="password" class="form-control" name="password" />
-        <label class="form-label" for="password" style="font-size: 24px;">Password</label>
     </div>
 
     <div class="col mb-3">
-        <a href="#!">Forgot password?</a>
+        <a asp-area="" asp-controller="Home" asp-action="ForgotPassword">Forgot password?</a>
     </div>
     <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
 

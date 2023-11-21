@@ -1,10 +1,13 @@
 using evan_airlines;
+using evan_airlines.Interfaces;
 using evan_airlines.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Net;
+using System.Net.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,11 +34,22 @@ builder.Services.Configure<IdentityOptions>(options =>
     // Password settings.
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
-    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = true;
     options.Password.RequiredLength = 6;
-    options.Password.RequiredUniqueChars = 1;
 });
+
+var smtpClient = new SmtpClient
+{
+    Host = "smtp-mail.outlook.com",
+    Port = 587,
+    Credentials = new NetworkCredential("johnsonjevane@hotmail.com", "IanEven27"),
+    EnableSsl = true,
+};
+
+builder.Services.AddSingleton(smtpClient);
+
+builder.Services.AddScoped<IEmailService, SmtpEmailService>();
 
 var app = builder.Build();
 

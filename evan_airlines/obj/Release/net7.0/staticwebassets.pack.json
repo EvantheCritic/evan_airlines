@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\evan_airlines.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\AppDbContext.cs",
-      "PackagePath": "staticwebassets\\AppDbContext.cs"
-    },
-    {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\4e5kz1lf.png",
       "PackagePath": "staticwebassets\\Images\\4e5kz1lf.png"
     },

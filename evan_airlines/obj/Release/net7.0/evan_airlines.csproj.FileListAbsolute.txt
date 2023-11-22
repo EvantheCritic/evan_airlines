@@ -79,3 +79,15 @@ C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\refin
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\evan_airlines.pdb
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\evan_airlines.genruntimeconfig.cache
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\ref\evan_airlines.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.Bcl.HashCode.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Cosmos.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\Newtonsoft.Json.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\bin\Release\net7.0\runtimes\win-x64\native\vcruntime140_1.dll

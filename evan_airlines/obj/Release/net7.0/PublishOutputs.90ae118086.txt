@@ -9,10 +9,16 @@ C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTm
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Azure.Cosmos.Client.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Azure.Cosmos.Core.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Azure.Cosmos.Direct.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Bcl.HashCode.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Cosmos.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
@@ -28,6 +34,7 @@ C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTm
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.Drawing.Common.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
@@ -36,6 +43,11 @@ C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTm
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.Security.Permissions.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\System.Windows.Extensions.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-x64\native\msvcp140.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-x64\native\vcruntime140_1.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\johns\Source\Repos\evan_airlines\evan_airlines\obj\Release\net7.0\PubTmp\Out\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll

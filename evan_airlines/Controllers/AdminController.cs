@@ -29,7 +29,6 @@ namespace evan_airlines.Controllers
         {
             LogbookModel entry = new LogbookModel
             {
-                id = _entry.id,
                 pilot = _entry.pilot,
                 copilot = _entry.copilot,
                 fa_1 = _entry.fa_1,
@@ -59,18 +58,21 @@ namespace evan_airlines.Controllers
                     if (emplyoee.name == entry.pilot)
                     {
                         emplyoee.pay += (entry.pay / 8);
-                        emplyoee.hours += hours + minutes;
+                        emplyoee.hours += hours;
+                        emplyoee.hours += minutes;
                     }
                 }
                 else if (emplyoee.name == entry.pilot)
                 {
                     emplyoee.pay += (entry.pay / 8);
-                    emplyoee.hours += hours + minutes;
+                    emplyoee.hours += hours;
+                    emplyoee.hours += minutes;
                 }
                 else if (emplyoee.name == entry.copilot)
                 {
                     emplyoee.pay += (entry.pay / 16);
-                    emplyoee.hours += hours + minutes;
+                    emplyoee.hours += hours;
+                    emplyoee.hours += minutes;
                 }
                 else if (emplyoee.name == entry.fa_1 || emplyoee.name == entry.fa_2 || emplyoee.name == entry.checkin_asc
                     || emplyoee.name == entry.ground1 || emplyoee.name == entry.ground2 || emplyoee.name == entry.gate_asc
@@ -80,44 +82,6 @@ namespace evan_airlines.Controllers
             }
             context.SaveChanges();
             return RedirectToAction("Index", "Logbook");
-        }
-
-        public IActionResult AddEmployee()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> AddEmployee(EmployeeModel employee, string inputName, string inputJob, IFormFile inputImage)
-        {
-
-            if (ModelState.IsValid)
-            {
-                if (inputImage != null && inputImage.Length > 0)
-                {
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        await inputImage.CopyToAsync(memoryStream);
-                        employee.image_data = memoryStream.ToArray();
-                        employee.image_mime = inputImage.ContentType;
-                    }
-                }
-                var newEmployee = new EmployeeModel
-                {
-                    name = inputName,
-                    job = inputJob,
-                    experience = 1,
-                    job_level = 1,
-                    hours = 0,
-                    pay = 0,
-                    image_data = employee.image_data,
-                    image_mime = employee.image_mime,
-                };
-                context.Employees.Add(newEmployee);
-                await context.SaveChangesAsync();
-                return View();
-            }
-            return View();
         }
 
         [HttpGet]

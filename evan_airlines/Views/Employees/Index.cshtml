@@ -5,12 +5,24 @@
 
 <h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 100px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 20px;">
     @foreach (var employee in Model)
     {
-        <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
-            <img src="data:image/jpeg;base64, @Convert.ToBase64String(employee.image_data)" alt="Image" height="200"/>
-        </a>
+        <div>
+            @if (employee.gender == "male")
+            {
+                <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
+                    <img src="~/Images/male-icon.jpg" alt="Male" height="120" />
+                </a>
+            }
+            else
+            {
+                <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
+                    <img src="~/Images/female-icon.jpg" alt="Female" height="120" />
+                </a>
+            }
+            <p>@employee.name</p>
+        </div>
     }
 </div>
 

@@ -8,15 +8,10 @@
 <table class="table">
     <thead class="thead-dark">
         <tr>
-            <th scope="col">Flight ID</th>
             <th scope="col">Pilot</th>
             <th scope="col">Copilot</th>
             <th scope="col">Flight Attendant 1</th>
             <th scope="col">Flight Attendant 2</th>
-            <th scope="col">Check-in Associate</th>
-            <th scope="col">Ground Crew 1</th>
-            <th scope="col">Ground Crew 2</th>
-            <th scope="col">Gate Associate</th>
             <th scope="col">Departure</th>
             <th scope="col">Arrival</th>
             <th scope="col">Flight Time</th>
@@ -27,18 +22,13 @@
         @foreach (var flight in Model)
         {
             <tr>
-                <th scope="row">@flight.id</th>
                 <td>@flight.pilot</td>
                 <td>@flight.copilot</td>
                 <td>@flight.fa_1</td>
                 <td>@flight.fa_2</td>
-                <td>@flight.checkin_asc</td>
-                <td>@flight.ground1</td>
-                <td>@flight.ground2</td>
-                <td>@flight.gate_asc</td>
                 <td>@flight.departure</td>
                 <td>@flight.arrival</td>
-                <td>@flight.flight_hours hr @flight.flight_minutes min</td>
+                <td>@flight.hours hr @flight.minutes min</td>
                 <td>@flight.pay</td>
             </tr>
         }

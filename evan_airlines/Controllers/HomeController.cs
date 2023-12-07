@@ -223,6 +223,11 @@ namespace evan_airlines.Controllers
             return BadRequest("Password reset failed");
         }
 
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
         [Route("Home/Error/{statusCode}")]
         public IActionResult Error(int statusCode)
         {

@@ -4,9 +4,15 @@
     <title>Error</title>
 </head>
 <body>
-    <h2 class="text-danger">An error occurred</h2>
-    <img src="~/Images/7hqrb129.png" alt="Pomni" height="200">
-    <p>@ViewData["ErrorMessage"]</p>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="~/Images/error.jpg" alt="Sad Evan" height="350">
+        <h1 class="text-danger" class="display-5 fw-bold text-body-emphasis">An Error occurred</h1>
+        <div class="col-lg-6 mx-auto">
+            <p style="font-size: 36px">
+                @ViewData["ErrorMessage"]
+            </p>
+        </div>
+    </div>
 </body>
 </html>
 

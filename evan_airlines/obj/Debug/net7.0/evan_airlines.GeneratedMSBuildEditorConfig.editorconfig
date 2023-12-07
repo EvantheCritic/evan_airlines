@@ -16,28 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\johns\Source\Repos\evan_airlines\evan_airlines
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/AddEmployee.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRW1wbG95ZWUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/AddEntry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRW50cnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/Job.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSm9iLmNzaHRtbA==
+[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/Addhours.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkaG91cnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/LevelUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGV2ZWxVcC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Admin/Pay.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Employees/Detail.cshtml]
@@ -46,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Employees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Flights/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/johns/Source/Repos/evan_airlines/evan_airlines/Views/Home/ForgotPassword.cshtml]

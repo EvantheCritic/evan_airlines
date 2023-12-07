@@ -2,26 +2,23 @@
 
 <div class="container px-4 px-lg-5 my-5">
     <div class="row gx-4 gx-lg-5 align-items-center">
-        <div class="col-md-6"><img src="~/Images/@(Model.name).png" alt="Image" height="600" /></div>
+        <div class="col-md-6"><img src="~/Images/@(Model.name).jpg" alt="Image" height="600" /></div>
         <div class="col-md-6">
             <div class="small mb-1">Employee ID: @Model.id</div>
             <h1 class="display-5 fw-bolder">@Model.name</h1>
             <table class="table">
                 <tbody style="font-size: 22px;">
                     <tr>
-                        <td>Job: @Model.job</td>
-                    </tr>
-                    <tr>
-                        <td>Performance: @Model.experience/50</td>
+                        <td>Experience: @Model.experience/50</td>
                     </tr>
                     <tr>
                         <td>Years of Experience: @Model.job_level</td>
                     </tr>
                     <tr>
-                        <td>Hours: @Model.hours</td>
+                        <td>Hours as Pilot: @Model.pilot_hours</td>
                     </tr>
                     <tr>
-                        <td>Money Earned: @Model.pay</td>
+                        <td>Hours as Flight Attendant: @Model.fa_hours</td>
                     </tr>
                 </tbody>
             </table>

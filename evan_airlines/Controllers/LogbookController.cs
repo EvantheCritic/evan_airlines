@@ -20,7 +20,7 @@ namespace evan_airlines.Controllers
 
         public IActionResult Flown(string name)
         {
-            var filteredFlights = context.Logbook.Where(flight => flight.pilot == name || flight.copilot == name).ToList();                
+            var filteredFlights = context.Logbook.Where(flight => flight.pilot == name || flight.copilot == name || flight.fa_1 == name || flight.fa_2 == name).ToList();                
             return View(filteredFlights); // Pass the filtered flights to the view
         }
     }

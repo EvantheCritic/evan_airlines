@@ -9,5 +9,6 @@ namespace evan_airlines
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<EmployeeModel> Employees { get; set; }
         public DbSet<LogbookModel> Logbook { get; set; }
+        public DbSet<FlightModel> Flights { get; set; }
     }
 }

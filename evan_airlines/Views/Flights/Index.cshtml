@@ -25,7 +25,7 @@
         alert("@ViewBag.AddToCartMessage");
     </script>
 }
-<h1 class="display-3 text-center" style="margin-bottom: 32px; margin-left: 50px;">@ViewData["Title"]</h1>
+<h1 class="display-3 text-center" style="margin-bottom: 32px;">@ViewData["Title"]</h1>
 @if (!User.Identity.IsAuthenticated)
 {
     <h3 style="text-align: center;">Please log in to book flights</h3>
@@ -57,6 +57,7 @@
                                 <input type="hidden" name="arrival" value="@flight.arrival">
                                 <input type="hidden" name="flTime" value="@flight.flTime">
                                 <input type="hidden" name="cost" value="@flight.cost">
+                                <input type="hidden" name="user" value="@User.Identity.Name">
                                 <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Add flight to cart</button>
                             </form>
                         }

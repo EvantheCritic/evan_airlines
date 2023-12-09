@@ -1,7 +1,6 @@
 ﻿using evan_airlines.Interfaces;
 using evan_airlines.Models;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace evan_airlines.Controllers
 {
@@ -9,13 +8,11 @@ namespace evan_airlines.Controllers
     {
         private readonly AppDbContext context;
         private readonly FlightService flightService;
-        private readonly ICheckoutService checkoutService;
 
-        public FlightsController(AppDbContext _context, IWebHostEnvironment _webHostEnvironment, FlightService _flightService, ICheckoutService _checkoutService)
+        public FlightsController(AppDbContext _context, IWebHostEnvironment _webHostEnvironment, FlightService _flightService)
         {
             context = _context;
             flightService = _flightService;
-            checkoutService = _checkoutService;
         }
         public IActionResult Index()
         {
@@ -35,11 +32,21 @@ namespace evan_airlines.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddToCart(FlightModel flight)
+        [ValidateAntiForgeryToken]
+        public IActionResult AddToCart(FlightModel flight, string user)
         {
+            CheckoutModel entry = new CheckoutModel
+            {
+                User = user,
+                Departure = flight.departure,
+                Arrival = flight.arrival,
+                Number = flight.number,
+                Cost = flight.cost,
+            };
             try
             {
-                checkoutService.AddFlightToCart(flight);
+                context.Checkout.Add(entry);
+                context.SaveChanges();
                 ViewBag.AddToCartMessage = "Flight added to cart!";
                 return RedirectToAction("Index");
             }

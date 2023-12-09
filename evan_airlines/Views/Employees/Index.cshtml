@@ -9,18 +9,9 @@
     @foreach (var employee in Model)
     {
         <div>
-            @if (employee.gender == "male")
-            {
-                <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
-                    <img src="~/Images/male-icon.jpg" alt="Male" height="120" />
-                </a>
-            }
-            else
-            {
-                <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
-                    <img src="~/Images/female-icon.jpg" alt="Female" height="120" />
-                </a>
-            }
+            <a asp-area="" asp-controller="Employees" asp-action="Detail" asp-route-id="@employee.id">
+                <img src="~/Images/@(employee.name).jpg" alt="Female" height="120" />
+            </a>
             <p>@employee.name</p>
         </div>
     }

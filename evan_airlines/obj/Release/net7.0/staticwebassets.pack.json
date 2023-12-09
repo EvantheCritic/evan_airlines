@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\Images\\7hqrb129.png"
     },
     {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Aaron.jpg",
+      "PackagePath": "staticwebassets\\Images\\Aaron.jpg"
+    },
+    {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Alyssa.jpg",
       "PackagePath": "staticwebassets\\Images\\Alyssa.jpg"
     },
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Chrissy.jpg",
       "PackagePath": "staticwebassets\\Images\\Chrissy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Delroy.jpg",
+      "PackagePath": "staticwebassets\\Images\\Delroy.jpg"
     },
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Evan.jpg",
@@ -41,8 +49,28 @@
       "PackagePath": "staticwebassets\\Images\\Jay.jpg"
     },
     {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Jeff.jpg",
+      "PackagePath": "staticwebassets\\Images\\Jeff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Kat.jpg",
+      "PackagePath": "staticwebassets\\Images\\Kat.jpg"
+    },
+    {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Martha.jpg",
       "PackagePath": "staticwebassets\\Images\\Martha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Mia.jpg",
+      "PackagePath": "staticwebassets\\Images\\Mia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Nate.jpg",
+      "PackagePath": "staticwebassets\\Images\\Nate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\Trevor.jpg",
+      "PackagePath": "staticwebassets\\Images\\Trevor.jpg"
     },
     {
       "Id": "C:\\Users\\johns\\Source\\Repos\\evan_airlines\\evan_airlines\\wwwroot\\Images\\error.jpg",

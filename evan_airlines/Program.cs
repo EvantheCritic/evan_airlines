@@ -47,8 +47,10 @@ var smtpClient = new SmtpClient
     EnableSsl = true,
 };
 
-builder.Services.AddSingleton(smtpClient);
 
+builder.Services.AddSingleton(smtpClient);
+builder.Services.AddScoped<FlightService>();
+builder.Services.AddScoped<ICheckoutService, CheckoutService>();
 builder.Services.AddScoped<IEmailService, SmtpEmailService>();
 
 var app = builder.Build();
